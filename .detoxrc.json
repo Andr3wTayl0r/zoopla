@@ -1,0 +1,12 @@
+{
+  "testRunner": "jest",
+  "runnerConfig": "e2e/config.json",
+  "configurations": {
+    "ios.sim.debug": {
+      "binaryPath": "ios/DerivedData/Build/Products/Debug-iphonesimulator/zoopla.app",
+      "build": "xcodebuild -workspace ios/zoopla.xcworkspace -scheme zoopla -configuration Debug -sdk iphonesimulator -derivedDataPath ios/DerivedData",
+      "type": "ios.simulator",
+      "name": "iPhone 11"
+    }
+  }
+}
