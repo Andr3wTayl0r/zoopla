@@ -38,6 +38,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = zoopla/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = zoopla/main.m; sourceTree = "<group>"; };
 		29A13F51C9482784345AA653 /* libPods-zoopla-zooplaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zoopla-zooplaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		490EE8E0262F2B6800AEA9FE /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		6C4F78A23A0631E5E08D0E4D /* Pods-zoopla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zoopla.debug.xcconfig"; path = "Target Support Files/Pods-zoopla/Pods-zoopla.debug.xcconfig"; sourceTree = "<group>"; };
 		7924026EEA018142284DC997 /* Pods-zoopla-zooplaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zoopla-zooplaTests.release.xcconfig"; path = "Target Support Files/Pods-zoopla-zooplaTests/Pods-zoopla-zooplaTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = zoopla/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -106,6 +107,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		490EE8DF262F2AF800AEA9FE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				490EE8E0262F2B6800AEA9FE /* MaterialIcons.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +125,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				490EE8DF262F2AF800AEA9FE /* Fonts */,
 				13B07FAE1A68108700A75B9A /* zoopla */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* zooplaTests */,
@@ -145,7 +155,6 @@
 				127F5E56F35E9EE7ED620CAF /* Pods-zoopla-zooplaTests.debug.xcconfig */,
 				7924026EEA018142284DC997 /* Pods-zoopla-zooplaTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -500,6 +509,7 @@
 				PRODUCT_NAME = zoopla;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -524,6 +534,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = zoopla;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
